@@ -4,7 +4,7 @@ body{
 
 header {
     border-bottom: 1px #d7d5d5a4 solid;
-
+    margin-bottom: 30px;
 }
 
 .logo {
@@ -21,19 +21,63 @@ nav,.menu {
     display: inline-block;
 }
 .menu {
-    display:inline-flex;
+    display: inline-flex;
     justify-content: space-between;
     margin-right: 30px;
     font-size: 18px;
-    font-weight: 600;   
+    font-weight: 600;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 
+        'Lucida Sans Unicode', Geneva, Verdana, sans-serif;   
 }
 .menu a {
     text-decoration: none;
     color: #272727;
 }
-
+.menu a:hover {
+    text-decoration-line: underline;
+    color:#2727277e
+}
 .flex-container {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+}
+.about-section {
+    border-bottom: 3px solid #d7d5d5a4;
+}
+.greeting {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+}
+.welcoming {
+    font-size: min(1.5rem, 35px);
+    font-family:Arial, Helvetica, sans-serif;
+}
+.my-name {
+    font: italic 700 2rem Times, 'Times New Roman', serif;
+}
+.landing {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 10%;
+}
+.landing-intro {
+    min-width: min(50%, 500px);
+    max-width: max(650px, 50%);
+}
+.landing-intro >p{
+    margin-bottom: 40px;
+}
+.btn {
+    background-color: #4f98ca;
+    text-decoration: none;
+    padding: 10px;
+    color:#EFFFFB;
+    border-radius: 10px;
+    font-weight: 600;
+    display: inline-block;
+}
+.btn:hover {
+    background-color: #4f99cab0;
+    margin: 5px;
 }
