@@ -81,3 +81,40 @@ nav,.menu {
     background-color: #4f99cab0;
     margin: 5px;
 }
+.skills-section {
+    margin: 20px min(20%, 100px);
+    display: flex;
+    justify-content: space-around;
+}
+.skills {
+    width: min(50%, 500px);
+}
+.proficiency-level {
+    background-color: #4f99cab0;
+    width: min(100%, 23rem);
+    height: 10px;
+    display: inline-block;
+    border-radius: 10px;
+}
+.degree {
+    background-color: #272727;
+    height: 100%;
+    border-radius: 10px;
+}
+.degree[proficiency="70%"] {
+    width:70%;
+}
+.degree[proficiency="75%"] {
+    width:75%;
+}
+.degree[proficiency="80%"] {
+    width: 80%;
+}
+.proficiency-remark {
+    position: relative;
+    left: min(65%, 23rem);
+    margin-top: 5px;
+}
+.prog-tools {
+    margin: 10% auto;
+}
