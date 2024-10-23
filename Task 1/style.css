@@ -118,3 +118,16 @@ nav,.menu {
 .prog-tools {
     margin: 10% auto;
 }
+.project-card {
+    margin:max(15%, 20px) 10%;
+    margin-top: auto;
+    font:500 1.2rem/1.5 Times, "times new roman", serif; 
+}
+.project-img {
+    order: 1;
+    margin: min(10%, 40px);
+}
+.project-description{
+    width: min(45%, 500px);
+    color:#272727
+}
