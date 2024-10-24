@@ -6,6 +6,9 @@ body{
 header {
     border-bottom: 1px #d7d5d5a4 solid;
     margin-bottom: 30px;
+    position: sticky;
+    top: 0;
+    background-color: #fff;
 }
 
 .logo {
@@ -176,9 +179,6 @@ footer {
     padding-left: 5%;
     padding-top: 1%;
     overflow: hidden;
-}
-img {
-    
 }
 @media (max-width: 800px) {
     .flex-container {
