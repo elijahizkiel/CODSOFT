@@ -58,8 +58,6 @@ nav,.menu {
     font: italic 700 2rem Times, 'Times New Roman', serif;
 }
 .landing {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
     margin: 10%;
 }
 .landing-intro {
@@ -126,11 +124,10 @@ nav,.menu {
 .prog-tools {
     margin: 5% 5%;
     width: min(50%, 500px);
-    vertical-align: middle;
 }
 .prog-tools img {
     width: 100%;
-    margin: 50% auto;
+    vertical-align: middle; 
 }
 .project-card {
     margin:max(15%, 20px) 10%;
@@ -139,7 +136,11 @@ nav,.menu {
 }
 .project-img {
     order: 1;
-    margin:10% auto; 
+    margin:5% auto;
+    width: 40%;
+}
+.project-img img {
+    width: 100%; 
 }
 .project-description{
     width: min(45%, 500px);
@@ -176,3 +177,15 @@ footer {
     padding-top: 1%;
     overflow: hidden;
 }
+img {
+    
+}
+@media (max-width: 800px) {
+    .flex-container {
+      flex-direction: column;
+    }
+    .prog-tools, .skills, .project-img, .project-description {
+        width: 100%;
+    }  
+    
+  } 
