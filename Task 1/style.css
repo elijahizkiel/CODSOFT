@@ -125,9 +125,38 @@ nav,.menu {
 }
 .project-img {
     order: 1;
-    margin: min(10%, 40px);
+    margin:10% auto; 
 }
 .project-description{
     width: min(45%, 500px);
     color:#272727
+}
+.contacts-section {
+    background-color: #50d890;
+    width: 105%;
+    position: relative;
+    left: -3%;
+    padding: 5% 10%;
+    text-align: center;
+    color: #EFFFFB;
+}
+.contacts-section h3 {
+    font:normal 600 1.5rem/1.5 Times, serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #EFFFFB;
+}
+.contact-logo img{
+    width: 40px;
+    display:inline-block;
+    margin:20px;
+}
+footer {
+    background-color: #272727;
+    height:40px;
+    width:105%;
+    position: relative;
+    left: -3%;
+    color:#d7d5d5a4;
+    padding-left: 5%;
+    padding-top: 1%;
 }
