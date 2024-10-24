@@ -43,7 +43,7 @@ nav,.menu {
 }
 .flex-container {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     flex-direction: row;
 }
 .about-section {
@@ -63,12 +63,17 @@ nav,.menu {
 .landing {
     margin: 10%;
 }
+.landing img {
+    width: 100%;
+    aspect-ratio: 1/1;
+}
 .landing-intro {
     min-width: min(50%, 500px);
     max-width: max(650px, 50%);
+    margin-top: 5rem;
 }
-.landing-intro >p{
-    margin-bottom: 40px;
+.landing-intro p{
+    margin: 40px;
 }
 .btn {
     background-color: #4f98ca;
