@@ -8,20 +8,19 @@
 </head>
 <body>
   <header>
-    <span class="logo"></span>
+    <span class="logo">Hotel</span>
     <nav>
       <ul>
-        <li><a href="#home" :active>Home</a></li>
-        <li><a href="#rooms-suites">Rooms & Suites</a></li>
-        <li><a href="#resevations">Reservation</a></li>
-        <li><a href="#facilities">Facilities</a></li>
-        <li><a href="#events">Events</a></li>
-        <li><a href="#restaurent">Restaurent</a></li>
-        <li><a href="#gallery">Gallery</a></li>
+        <li><a class="top menu active" href="#home" :visited>Home</a></li>
+        <li><a class="top menu" href="#rooms-suites">Rooms & Suites</a></li>
+        <li><a class="top menu" href="#resevations">Reservation</a></li>
+        <li><a class="top menu" href="#facilities">Facilities</a></li>
+        <li><a class="top menu" href="#events">Events</a></li>
+        <li><a class="top menu" href="#restaurent">Restaurent</a></li>
+        <li><a class="top menu" href="#gallery">Gallery</a></li>
       </ul>
     </nav>
   </header>
-  <hr/>
   <main>
     <section class="hero">
       <div class="hero-message">
@@ -54,6 +53,9 @@
           internet connection, personal kitchen facilities with dining and 
           living room</strong>
         </p>
+      </div>
+      <div class="about-img">
+        <img src="./images/lighted-room.png" alt="">
       </div>
     </section>
     <section class="facilities" id="facilities">
@@ -96,7 +98,7 @@
     </section>
     <section class="restaurants" id="restaurants">
       <div class="restaurant-img">
-        <img src="" alt="lady enjoying a yammy meal"/>
+        <img src="./images/lady-enjoying-meal.png" alt="lady enjoying a yammy meal"/>
       </div>
       <div class="restaurant-commercial">
         <h2 class="restaurent-title">Restaurent & Lounge</h2>
@@ -110,7 +112,7 @@
           yourself a weekend break with a comfortable lounge 
           system.
         </p>
-        <div class="dark-btn">
+        <div class="dark btn">
           Discover More
         </div>
       </div>
@@ -125,7 +127,7 @@
       <div class="room-cards">
         <div class="rooms-card">
           <div class="card-img">
-            <img src="" alt="best suited room"/>
+            <img src="images/single-bed" alt="best suited room"/>
             <span class="service-icons"></span>
           </div>
           <p class="card-title">Single Room</p>
@@ -142,7 +144,7 @@
         </div>
         <div class="rooms-card">
           <div class="card-img">
-            <img src="" alt="best suited room"/>
+            <img src="./images/double-bed-room" alt="best suited room"/>
             <span class="service-icons"></span>
           </div>
           <p class="card-title">Double Room</p>
@@ -159,7 +161,7 @@
         </div>
         <div class="rooms-card">
           <div class="card-img">
-            <img src="" alt="best suited room"/>
+            <img src="./images/deluxe-room" alt="best suited room"/>
             <span class="service-icons"></span>
           </div>
           <p class="card-title">Delux Room</p>
@@ -169,7 +171,7 @@
           </p>
           <div class="booking flex-container">
             <div class="price">
-              120$/<smaller>Day</smaller>
+              135$/<smaller>Day</smaller>
             </div> 
             <div class="gradient btn">Book Now</div>
           </div>
@@ -195,7 +197,7 @@
             <div class="dark btn">Discover More</div>
            </div>
            <div class="events-img">
-            <img src="" alt="" >
+            <img src="./images/man-leading-conference.png" alt="man leading conference"/>
           </div>
         </div>
       </div>
@@ -207,7 +209,7 @@
       <div class="expansion-pointer">view all</div>
       <div class="review-card">
         <div class="customer-img">
-          <img src="" alt="user"/>
+          <img src="./images/user-1.png" alt="user"/>
         </div>
         <p class="review">
           Very nice and comfortable place to check in.
@@ -219,7 +221,7 @@
       <span class="arrow-circle"></span>
       <div class="review-card">
         <div class="customer-img">
-          <img src="" alt="user"/>
+          <img src="./images/user-2.jpg" alt="user"/>
         </div>
         <p class="review">
           I love the way they fulfill our visualization to reality. 
@@ -231,7 +233,7 @@
       <span class="arrow-circle"></span>
       <div class="review-card">
         <div class="customer-img">
-          <img src="" alt="user"/>
+          <img src="./images/user-3.jpg" alt="user"/>
         </div>
         <p class="review">
           Lorem ipsum dolor sit amet consectetur 
@@ -256,11 +258,11 @@
       </div>
       <div class="nav-bar">
         <ul class="menus">
-          <li class="menu"><a href="#about">About</a></li>
-          <li class="menu"><a href="#events">Events</a></li>
-          <li class="menu"><a href="#prices">Pricing</a></li>
-          <li class="menu"><a href="#gallery">Gallery</a></li>
-          <li class="menu"><a href="#facilities">Facility</a></li>
+          <li class="bottom menu"><a href="#about">About</a></li>
+          <li class="bottom menu"><a href="#events">Events</a></li>
+          <li class="bottom menu"><a href="#prices">Pricing</a></li>
+          <li class="bottom menu"><a href="#gallery">Gallery</a></li>
+          <li class="bottom menu"><a href="#facilities">Facility</a></li>
         </ul>
         <span>|</span>
         <span class="social-media-icons">
