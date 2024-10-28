@@ -1,0 +1,48 @@
+:root{
+    --blur:#ffffff45;
+    --cream-white: #f9eedc;
+    --dark: #272525;
+    --black-white-gradient: linear-gradient(45deg,#353434,#eeeeee99);
+    --orangy-white: #fec892e0;
+    --shadow-to-bottom: 0rem 0.7rem 0.5rem #9c9a9ada;
+    --overlay: 1;
+}
+body{
+    margin: 0;
+    overflow-x: hidden;
+}
+header {
+    box-shadow: var(--shadow-to-bottom);
+    background-color: var(--blur);
+    position: sticky;
+    width: 105%;
+    left: -2%;
+    top: 1px;
+    display: inline-flex;
+    justify-content: flex-start;
+    z-index: 1;
+}
+header .logo {
+    width: 2rem;
+    height: 100%;
+    margin: auto 5%;
+}
+nav li {
+    display: inline-block;
+    list-style: none;
+}
+.menu.top {
+    text-decoration: none;
+    color:#585858;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 1.1rem;
+    font-size: 1rem;
+    font-weight: 600;
+    /* background-color: grey; */
+    height: 100%;
+}
+.menu.top.active{
+    color: white;
+    background-color: var(--blur);
+    box-shadow: 2px 0px 5px #393838;
+}
