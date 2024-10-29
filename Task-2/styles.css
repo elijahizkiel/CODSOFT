@@ -18,6 +18,7 @@ header {
     width: 105%;
     left: -2%;
     top: 1px;
+    height: 5vw;
     display: inline-flex;
     justify-content: flex-start;
     z-index: 1;
@@ -38,11 +39,77 @@ nav li {
     padding: 1.1rem;
     font-size: 1rem;
     font-weight: 600;
-    /* background-color: grey; */
     height: 100%;
 }
 .menu.top.active{
     color: white;
     background-color: var(--blur);
     box-shadow: 2px 0px 5px #393838;
+    padding: 2.5vw 1vw;
+}
+.blur {
+    background-color: var(--blur);
+}
+.hero {
+    background-image: url("./images/house.jpg");
+    background-size: cover;
+    height: 75vw;
+    width: 100vw;
+    position:relative;
+    top: -6vw;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center; 
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.hero-message{
+    font-size: 4.5rem;
+    font-weight: 750;
+    color: #fff;
+}
+.options {
+    font-size: 1rem;
+    color:#f9eedc;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    border: 0.25px solid #ffffffc1;
+    border-radius: 10px;
+    margin: 5vw auto;
+    overflow-y: clip;
+}
+.option {
+    display:inline-flex;
+    margin:0vw 2vw;
+    margin-right: 0;
+    padding:10px;
+    font-weight: 500;
+    border-radius: 10px; 
+}
+.option.selected{
+    background-color: #fab129;
+    align-self: stretch;
+}
+.calendar {
+    color:#fab129;
+    margin: 0 10px;
+}
+.drop-down {
+    color: white;
+    margin:0 10px;
+}
+.btns {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.btn {
+    padding: 0.7rem;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin: auto 3rem;
+    color:white;
+    font-weight: 650;
 }
