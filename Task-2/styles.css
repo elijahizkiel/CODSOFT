@@ -153,3 +153,47 @@ nav, nav li {
     position: relative;
     top: -2vw;
 }
+.facilities {
+    background-color: #e5e5e57d;
+    padding: 10vw 10vw;
+}
+.facilities{
+    text-align: center;
+}
+.expansion-pointer {
+    cursor: pointer;
+    position: relative;
+    right: -30vw;
+    margin: 2rem;
+}
+.facility-cards {
+    display: flex;
+    justify-content:space-around;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.facility-card {
+    display:flex;
+    flex-direction: column;
+    max-width: 16vw;
+    background-color: #fff;
+    padding: 2vw 10px;
+    border-radius: 10px;
+    align-items: center;
+}
+.icons {
+    border-radius: 15px;
+    padding: 5%;
+    background-color: #000;
+    max-width:min-content;
+    color:#fff;
+    font-size: 2rem;
+}
+.card-title {
+    font-weight: 600;
+}
+.card-description {
+    font-size:0.8rem;
+    text-align: center;
+    font-weight: 400;
+    margin: 0;
+}
