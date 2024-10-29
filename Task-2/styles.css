@@ -3,13 +3,14 @@
     --cream-white: #f9eedc;
     --dark: #272525;
     --black-white-gradient: linear-gradient(45deg,#353434,#eeeeee99);
-    --orangy-white: #fec892e0;
+    --orangy-white: #fec89248;
     --shadow-to-bottom: 0rem 0.7rem 0.5rem #9c9a9ada;
     --overlay: 1;
 }
 body{
     margin: 0;
     overflow-x: hidden;
+    font:400 15pt/1.5 Arial, Helvetica, sans-serif;
 }
 header {
     box-shadow: var(--shadow-to-bottom);
@@ -28,9 +29,10 @@ header .logo {
     height: 100%;
     margin: auto 5%;
 }
-nav li {
+nav, nav li {
     display: inline-block;
     list-style: none;
+    height: 100%;
 }
 .menu.top {
     text-decoration: none;
@@ -39,15 +41,15 @@ nav li {
     padding: 1.1rem;
     font-size: 1rem;
     font-weight: 600;
-    height: 100%;
+    /* height: 100%; */
 }
 .menu.top.active{
     color: white;
     background-color: var(--blur);
     box-shadow: 2px 0px 5px #393838;
-    padding: 2.5vw 1vw;
+    align-self: stretch;
 }
-.blur {
+.blur { 
     background-color: var(--blur);
 }
 .hero {
@@ -112,4 +114,42 @@ nav li {
     margin: auto 3rem;
     color:white;
     font-weight: 650;
+}
+.about {
+    margin:10vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.about-description {
+    margin-right: 5%;
+}
+.about-intro {
+    text-transform: capitalize;
+    color: #fab129;
+}
+.about-commercial{
+    font:700 3rem Arial, Helvetica, sans-serif;
+    margin: 2rem 0.5rem;
+    text-transform: capitalize;
+}
+.welcome {
+    font-weight: 550;
+    text-transform: capitalize;
+    color:#fab129;
+}
+.about-p {
+    font-size: 1.1rem;
+    font-weight:500;
+}
+.about-img {
+    background-color: var(--orangy-white);
+    padding: 0vw 2.5vw 1vw 2.5vw;
+    margin-top: 2vw;
+    border-radius: 10px;
+}
+.about-img img {
+    border-radius: 10px;
+    position: relative;
+    top: -2vw;
 }
