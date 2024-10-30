@@ -197,3 +197,38 @@ nav, nav li {
     font-weight: 400;
     margin: 0;
 }
+.restaurents {
+    display: flex;
+    flex-direction: row;
+    padding: 10vw 0vw;
+    margin: 0vw 7.5vw;
+    justify-content: space-between;
+}
+.restaurent-title {
+    display:inline-block;
+    margin: 0;
+}
+.topic-line {
+    margin: 0 2vw;
+    display:inline-block;
+    height: 2px;
+    width: 30%;
+    background-color: #1f0101;
+}
+.restaurent-img img {
+    border-radius: 10px;
+    width: 37.5vw;
+}
+.restaurent-commercial {
+    margin: 5vw 2vw;
+}
+.restaurent-description {
+    font-size: 1.05rem;
+}
+.dark.btn {
+    background-color: #000;
+    border-radius: 10px;
+    margin: 4vw 0.5vw;
+    width: max-content;
+    font-weight: 400;
+}
