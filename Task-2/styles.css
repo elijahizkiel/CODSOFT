@@ -205,6 +205,7 @@ nav, nav li {
     padding: 10vw 0vw;
     margin: 0vw 7.5vw;
     justify-content: space-between;
+    align-items: center;
 }
 .restaurent-title {
     display:inline-block;
@@ -222,7 +223,7 @@ nav, nav li {
     width: 37.5vw;
 }
 .restaurent-commercial {
-    margin: 5vw 2vw;
+    margin: 0 2vw;
 }
 .restaurent-description {
     font-size: 1.05rem;
@@ -310,4 +311,32 @@ smaller {
     font-size: 1.1rem;
     font-weight: 500;
     margin: 0;
+}
+.events {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10vw;
+}
+.planning-description, .events-list {
+    line-height: 2;
+}
+.planning-description p {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.event-planning {
+    margin-right: 5vw;
+    font-size: 1.2rem;
+}
+.events-list {
+    list-style: disc;
+    text-transform: capitalize;
+}
+.events-img {
+    border-radius: 5pt;
+    overflow:hidden;
+}
+.events-img img {
+    height: 100%;
 }
