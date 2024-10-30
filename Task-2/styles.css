@@ -2,7 +2,7 @@
     --blur:#ffffff45;
     --cream-white: #f9eedc;
     --dark: #272525;
-    --black-white-gradient: linear-gradient(45deg,#353434,#eeeeee99);
+    --black-white-gradient: linear-gradient(-45deg, #303030, #9e9e9f, #303030);
     --orangy-white: #fec89248;
     --shadow-to-bottom: 0rem 0.7rem 0.5rem #9c9a9ada;
     --overlay: 1;
@@ -108,12 +108,14 @@ nav, nav li {
     justify-content: space-between;
 }
 .btn {
-    padding: 0.7rem;
+    width: max-content;
+    padding: 0.2rem 0.7rem;
     border: 1px solid white;
     border-radius: 5px;
     margin: auto 3rem;
     color:white;
     font-weight: 650;
+    cursor: pointer;
 }
 .about {
     margin:10vw;
@@ -231,4 +233,81 @@ nav, nav li {
     margin: 4vw 0.5vw;
     width: max-content;
     font-weight: 400;
+}
+.rooms-suites {
+    background-color: #1a1a1a;
+    padding: 7vw 5vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:white;
+}
+.room-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.room-card {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    min-width:15vw;
+    max-width: 25vw;
+    margin: 2vw;
+    padding-bottom: 1%;
+    border-radius: 15px;
+    background-color: #2d2c2c;
+    overflow-x: hidden;
+}
+.room-card-title{
+    font-weight: 600;
+    margin: 0vw;
+}
+.room-card-img {
+    height:min-content;
+}
+.room-card-img img{
+    width: 100%;
+}
+.service-icons {
+    color:#fab129;
+    position: relative;
+    top:-5vw;
+    right: -12.5vw;
+}
+.service-icons .icon {
+    font-size: 1.5rem;
+    font-weight: 300;
+    background-color: #373030;
+    padding: 0.7rem;
+    border-radius: 7px;
+}
+.room-card-description {
+    font-size: 0.9rem;
+    text-align:justify;
+    padding: 0% 5%;
+}
+.see-more {
+    color: #fab129;
+    cursor:pointer;
+}
+.booking {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+.price {
+    color:#fab129;
+}
+smaller {
+    color:#f9eedc;
+    font-size: 0.8rem;
+}
+.gradient.btn {
+    background: var(--black-white-gradient);
+    color: #fab129;
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin: 0;
 }
