@@ -423,3 +423,89 @@ smaller {
 .stars {
     color:gold;
 }
+.subscription-section {
+    background-color: var(--dark);
+    color:#fff;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin:0;
+    padding: 2vw;
+}
+.subscription-section .title{
+    color: gold;
+}
+.subscription {
+    padding: 5vw;
+    background: linear-gradient(-60deg,#2b2b2b,#3f3e3e);
+}
+.subscription form {
+    display: flex;
+    align-items: center;
+    box-shadow: 2vw 0vw 2vw #303030;
+}
+#user-email {
+    color: white;
+    font-size: 1rem;
+    height:3vw;
+    width:30vw;
+    background: linear-gradient(-45deg,#393838,#373030);
+    border: 1px solid #4e4e4e;
+    outline:none;
+}
+.subscription button {
+    height: 3.5vw;
+    padding:0 5%;
+    background: linear-gradient(45deg,#4f4f4f,#373030);
+}
+.send-btn {
+    transform: rotate(-30deg);
+    font-size: 3rem;
+    color:gold;
+    position: relative;
+    top:-15%;
+}
+.bottom.menu {
+    list-style: none;
+    display:inline-block;
+}
+.bottom.menu a {
+    text-decoration: none;
+    color:#fff;
+    margin: 1vw 2vw;
+}
+.menus {
+    display: inline-block;
+}
+.nav-bar {
+    display: flex;
+    align-items: center;
+}
+.separator {
+    font-size: 1rem;
+    margin: 0 1.5vw;
+}
+.policies {
+    margin: 2vw;
+}
+.policy{
+    margin: 2vw;
+}
+.social-media-icons img {
+    color:grey;
+    margin: 0 auto;
+}
+footer {
+    background-color: var(--dark);
+    padding: 1vw;
+    color: #fff;
+    border-top: 1px solid #9e9e9f
+}
+footer p {
+    margin: 0;
+    text-align: center;
+    font-size: 0.7rem;
+}
+.owner {
+    color: #fab129;
+}

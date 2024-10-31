@@ -363,8 +363,8 @@
       </div>
       <div class="subscription">
       <form>
-        <input type="email" name="user-email" id="user-email">
-        <button class="" type="submit">send</button>
+        <input type="email" name="user-email" id="user-email" placeholder="Type your e-mail ...">
+        <button type="submit"> <span class="material-symbols-outlined send-btn">send</span></button>
       </form>
       </div>
       <div class="nav-bar">
@@ -375,22 +375,24 @@
           <li class="bottom menu"><a href="#gallery">Gallery</a></li>
           <li class="bottom menu"><a href="#facilities">Facility</a></li>
         </ul>
-        <span>|</span>
+        <span class="separator">|</span>
         <span class="social-media-icons">
-
+          <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAAAT1JREFUWEft1s8qRVEUx/HP9QAyk4F/r4CMjUyUifIMksLI1FgMJMkbKE8gTyCUJxBGlDAwU3JvuXXv7h5nn8692oO9h2uvs37f81vrnL0bEluNxHhkoLKO9NOhISxhFt94xxtecVEG0t7vF9AyDjFVIBytE534xxtu4KjEgWid6MQCwRncRrQjWic6sUD0GOspAV1hPgC6bg70Jm7wFQHblVLXoXtMB6JzkW3syVoX6BETQeUxPFd1pl+f/RPGM1CHA7uBG9sYDmIH+OyIveAktoVVZqiV2zoSqq5LLMY+9B9Ap80hX0sJaAd7KQGt4nwQQK2aC0Hhs+bAjgaxld9rRzt8h49BAYV1HzCZ0n8oA5W1PjuUHapydPRyK89QnqG6M7SFkcDG/eCCVuZy135doEpiMckZqMyl5Bz6AfsnPSV91uyVAAAAAElFTkSuQmCC"/>
+          <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAAAnRJREFUWEftlkuIjlEYx3/jtplcYjYKkctkN9KQhVBSSGFG0rAyU6SUQiEm5JbLUhZkYSMLScx27EhS00hNIqbJhrCRlMucfz1vTd+c9z3njPfNLL5TX99X3znP+Z3/c21gnK2GccZDHSjkkbpC/0OhxcBBYBWwFOgHngG37HfGNAlYArweCelz2UxgLXA/9BrP/yeAbmByztkO4BWwDjgAbAEGQkCHgMvAduBhAtRu4E7C/gsGP9Up+iU751PoHrAD+A1sBR5FXNIEvAFmROzVll7gq3PjXFPrexGQVJGUWn+Aa+77FPCj4LKdwN1ImGzbJ4uztyGXHXcxcK7G+CAgVz4wyNq75eLDCUCCWA+8rz3jc9kaF9RPcox/BG7bZ+TLbgJ7E4COAFd8+31AEwDFUVvgAkkuKH0WASsTgLoAPWLU8gFtAJ5b2is9q1ibgZ5YIKmzDfjg0nhhFTQuFlvcHX2xQJeAoxWByKxSfLqVlSiXif4lVDaaqAPkxmdetz/jXnCyIpU6ra95zReNH8oEpea0EsG+ueyaY25LBtoITAFUhXeVBHXWqn6uuSKFlgMvSgLJgnk+8LnIZmhivA7sLwlKKgf7XQhI/1+1PvYvXDdiHxYCyiBaAc07y4DViWSPLc1/xpyLBZoI7HO16TQwK8aw7ZGL9gC/Ys8UAWnmnWdl/jzQHGvUTYJ/XYbqjGqZfkevWqBN1jYWWL1Q509d6oEK4KepB7Xfp5CUOOaG8XY3WzcmGNXwrrZwMTBdFposcpmKosYPzTkrANWQ2QapSe+dTXzq2grcoQT4MRXGMuwn24jNsmTDYz1QBwopV1copNAwPqtfJYPlU7sAAAAASUVORK5CYII="/>
+          <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAAAiBJREFUWEft18vLTVEYx/HP6xpyn7gkoTBhIjEwUGSKlJFkYGpAlJSUlEshBiZG/gFkJgPJiGRghMJMUq5Rct+P9tbu2MtZ+xyd3nTW7Jz9XL7rWc/zW3uPGGVrZJTxGAJ1O5Fhhf67Ck3EcswsdzYHCzGp207L52/xDO/K3y/xGF9T/k09NBVHsQdjMxO3MfuGeziFy52OTUDXsalNhj5sz2Jf3b8TaD1u9pGgF9e1uFM5dgKdKc57by9R+/A5iYMpoBvY2EfwXlyvYXMK6CGWtYgapV7Twr7JNBp8dQroFWZlJvhRTuEOnMC8TL9Os6dYkgIKfcgd9e8128k4hAOY0BLsBeY2AYUIfmoRrA5UuYVohr5sbxHnTf1U6lM2raaoOfGagCq/kI/zWJER6ANCjH+tOtD4ouyfMwJUJqG44xL263AhEyhyxun8ATQGkSR3NQHFkZ3GttwghVK/x/RUU3/5y647c9SBppRNvb+Hpn6O+SmgaLAZmbuLiYyJ2lmU/Hh9UjL9K7NH5RvFH0cWfzzB4syAoUP3sSrTPmV2CzEEjUC3EQ05yHUJu1JAF7F7kDTFIB0u+vZYCmgLrgwYKO7Cuymg0KK47FYOCOoqttZzNb0xhibEvbQBoaLR5Av+MWBM6DkcKe6/j92AmnLHtRICVq3ZWISlJXBKsSv72Fjc6q/LF/wHHfF+Bx5+KHY7+mGFhhXqVoFuz0ddD/0ElehNJRg4qHwAAAAASUVORK5CYII="/>
+          <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAAA5hJREFUWEftl1moTmEUhp9jDLkhY5RkJlNJpAyRKbkwS5JQppKhkHmIEJIhUxKZiVKEkDKFzFMoRRQukczfq7X1+c7+996/38W5sOp0zv/t9a39nrXe9a71F1HCrKiE4eE/oLSK5JOhFkAboB5QOi2wPf8GPAduAvey3MkCaBiwCGiQJWCCzxNgDnAgKU4SoFrATqBHgUDC66dd1kYBr+LiJgE6CfS0S5eAHcANS/2XjCDLA62A9sAEoIndOwH0yQfQAOCQXZgNLMsIIMmtHLAWGG9OA4HD4YVcGVK9xRnVe0gBYLoCw4EawHHL8nWgJfDYy9jvV8QBagbcN4/OwIUCAE0E1gdlGgHssrO6wEs/fhwgv1xKcy6+VAamAR2A1sAP4BZwBVgJfLDs7rMXqkFEZmVeFZD1s8wlZkg13gi8A6rlyE5368DaOZ6/AEYC511pJBvVLetnHNhKwHu7pwzqXYmAZgArgKdAw5gXdgHOeedngTtAGcc5lbub96yTk42LQQxV5budzQKWpwGaa0J418jn+6tMD4A6lkERVrrim6RiD1DFVLo58DHw+WpqP8/9XpwGaIHjw3xA3dAuCDQG2Gpn0hHpSZyppQ/aA5UuInHkK14qo5kALTRHkVOE9W07MNoJ5mWgYw4w0bHml8i+yUTRd//ktE2imQmQ5pbKdtsC+oEemnaolSenANoCjM0RRx1Y0aihavy2uLaPSvYIaBq8VGeNXfdtcByalAJos5tX44xz4pFv6jJ1m/ijLGUCJPKGgfYCQ01rwnKG+KRJmmPij3jkm0hewR3onxdF/hrQTG+uFRM1L+5gl9399nkqsCYA9Bkoa9RYkgZINRXyuJLVtGlfFXjrtEpj4FTwst5OjXdb27826ZDIRlbKAdHiJis2uOM4JKelwLMcS1mvoN2ThFEi6YuoQIjMIrVMo2d1Wob+9egIueWPDu1IkoVEDvV37X7UhqW0Imm4asxo+dKurXEQDtcQjD7Xt+zrbw3yI2mAtNVJb2SFrh9xgPz1Q18colXnl2/agibCRmtsXPB8zzQurpngvrHF7Y8YuQD19fYU6YR+tO8UYuEKG7saJy35Wl8HGYKrbsJvsyVfW4CmdRaLlnwN6Sle1ypG27g4SYDUnqu8pTwLgCw+2gLUXb42JXZZGFQcWud2nEZZ3pbgo4VvuuvIY0lxsnxzje6XmK/SBSYmv+v5ZCi/yH/p/R9QWuJ+ArGquSWsrGisAAAAAElFTkSuQmCC"/>
         </span>
       </div>
       <div class="logo"></div>
       <div class="policies">
-        <span>Privacy Policy</span>
-        <span>Terms of Use</span>
-        <span>Sales and Refunds</span>
-        <span>Legals</span>
-        <span>Reservation</span>
+        <span class="policy">Privacy Policy</span>
+        <span class="policy">Terms of Use</span>
+        <span class="policy">Sales and Refunds</span>
+        <span class="policy">Legals</span>
+        <span class="policy">Reservation</span>
       </div>
     </section>
   </main>
-  <hr/>
   <footer>
     <p>Copyright &#169 2024 by <span class="owner">Elijahizkiel</span> All rights reserved</p>
   </footer>
