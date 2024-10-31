@@ -29,10 +29,17 @@ header .logo {
     height: 100%;
     margin: auto 5%;
 }
-nav, nav li {
-    display: inline-block;
+nav li {
+    margin: 0;
+    height: 100%;
+}
+nav, nav ul {
+    display: flex;
+    align-items: center;
     list-style: none;
     height: 100%;
+    margin: 0;
+
 }
 .menu.top {
     text-decoration: none;
@@ -41,9 +48,9 @@ nav, nav li {
     padding: 1.1rem;
     font-size: 1rem;
     font-weight: 600;
-    /* height: 100%; */
+    height:100%;
 }
-.menu.top.active{
+ nav li .menu.top.active{
     color: white;
     background-color: var(--blur);
     box-shadow: 2px 0px 5px #393838;
@@ -452,6 +459,7 @@ smaller {
     background: linear-gradient(-45deg,#393838,#373030);
     border: 1px solid #4e4e4e;
     outline:none;
+    padding: 0 1vw;
 }
 .subscription button {
     height: 3.5vw;
